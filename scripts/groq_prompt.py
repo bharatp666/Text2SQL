@@ -6,7 +6,7 @@ from datetime import datetime
 # with open("llama_prompt.txt", "r") as f:
 #     prompt_text = f.read()
 
-# GROQ_API_KEY = "<YOUR_GROQ_API_KEY>""
+# GROQ_API_KEY = "<YOUR_GROQ_API_KEY>"
 # MODEL = "llama3-8b-8192"
 
 # url = "https://api.groq.com/openai/v1/chat/completions"
