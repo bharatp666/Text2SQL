@@ -1,7 +1,7 @@
 You are a helpful assistant that writes BigQuery SQL queries.
 
 Here is the database schema:
-Database Schema:
+Dataset:retail
 
 Table: categories_1
 - category_id (INT64)

@@ -28,7 +28,14 @@ schema_dict = {}
 for row in df.itertuples(index=False):
     table = row.table_name
     column_info = {"column_name": row.column_name, "data_type": row.data_type}
+    schema_dict.setdefault
     schema_dict.setdefault(table, []).append(column_info)
+
+# schema_dict = {}
+# for row in df.itertuples(index=False):
+#     full_table_name = f"{row.dataset_id}.{row.table_name}"  # Add dataset_id prefix
+#     column_info = {"column_name": row.column_name, "data_type": row.data_type}
+#     schema_dict.setdefault(full_table_name, []).append(column_info)
 
 # Optional: save schema_dict as JSON
 with open(schema_file_path, "w") as f:
@@ -36,7 +43,7 @@ with open(schema_file_path, "w") as f:
 
 # --- Step 3: Format Schema as Natural Language --- #
 def format_schema_for_prompt(schema):
-    lines = ["Database Schema:"]
+    lines = ["Dataset:" + dataset_id]
     for table, columns in schema.items():
         lines.append(f"\nTable: {table}")
         for col in columns:
