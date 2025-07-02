@@ -1,0 +1,127 @@
+You are a helpful assistant that writes BigQuery SQL queries.
+
+Here is the database schema:
+Dataset:retail
+
+Table: categories_1
+- category_id (INT64)
+- category_name (STRING)
+- description (STRING)
+- picture (STRING)
+
+Table: customer_customer_demo
+- customer_id (STRING)
+- customer_type_id (STRING)
+
+Table: customer_demographics
+- customer_type_id (STRING)
+- customer_desc (STRING)
+
+Table: customers
+- customer_id (STRING)
+- company_name (STRING)
+- contact_name (STRING)
+- contact_title (STRING)
+- address (STRING)
+- city (STRING)
+- region (STRING)
+- postal_code (STRING)
+- country (STRING)
+- phone (STRING)
+- fax (STRING)
+
+Table: employee_territories
+- employee_id (INT64)
+- territory_id (STRING)
+
+Table: employees
+- employee_id (INT64)
+- last_name (STRING)
+- first_name (STRING)
+- title (STRING)
+- title_of_courtesy (STRING)
+- birth_date (DATE)
+- hire_date (DATE)
+- address (STRING)
+- city (STRING)
+- region (STRING)
+- postal_code (STRING)
+- country (STRING)
+- home_phone (STRING)
+- extension (STRING)
+- photo (STRING)
+- notes (STRING)
+- reports_to (INT64)
+- photo_path (STRING)
+
+Table: order_details
+- order_id (INT64)
+- product_id (INT64)
+- unit_price (FLOAT64)
+- quantity (INT64)
+- discount (FLOAT64)
+
+Table: orders
+- order_id (INT64)
+- customer_id (STRING)
+- employee_id (INT64)
+- order_date (DATE)
+- required_date (DATE)
+- shipped_date (DATE)
+- ship_via (INT64)
+- freight (FLOAT64)
+- ship_name (STRING)
+- ship_address (STRING)
+- ship_city (STRING)
+- ship_region (STRING)
+- ship_postal_code (STRING)
+- ship_country (STRING)
+
+Table: products
+- product_id (INT64)
+- product_name (STRING)
+- supplier_id (INT64)
+- category_id (INT64)
+- quantity_per_unit (STRING)
+- unit_price (FLOAT64)
+- units_in_stock (INT64)
+- units_on_order (INT64)
+- reorder_level (INT64)
+- discontinued (INT64)
+
+Table: region
+- region_id (INT64)
+- region_description (STRING)
+
+Table: shippers
+- shipper_id (INT64)
+- company_name (STRING)
+- phone (STRING)
+
+Table: suppliers
+- supplier_id (INT64)
+- company_name (STRING)
+- contact_name (STRING)
+- contact_title (STRING)
+- address (STRING)
+- city (STRING)
+- region (STRING)
+- postal_code (STRING)
+- country (STRING)
+- phone (STRING)
+- fax (STRING)
+- homepage (STRING)
+
+Table: territories
+- territory_id (STRING)
+- territory_description (STRING)
+- region_id (INT64)
+
+Table: us_states
+- state_id (INT64)
+- state_name (STRING)
+- state_abbr (STRING)
+- state_region (STRING)
+
+Now write a SQL query for this question:
+List all customers who placed an order in 1998.

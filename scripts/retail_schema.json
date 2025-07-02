@@ -1,0 +1,398 @@
+{
+  "categories_1": [
+    {
+      "column_name": "category_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "category_name",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "description",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "picture",
+      "data_type": "STRING"
+    }
+  ],
+  "customer_customer_demo": [
+    {
+      "column_name": "customer_id",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "customer_type_id",
+      "data_type": "STRING"
+    }
+  ],
+  "customer_demographics": [
+    {
+      "column_name": "customer_type_id",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "customer_desc",
+      "data_type": "STRING"
+    }
+  ],
+  "customers": [
+    {
+      "column_name": "customer_id",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "company_name",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "contact_name",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "contact_title",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "address",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "city",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "region",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "postal_code",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "country",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "phone",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "fax",
+      "data_type": "STRING"
+    }
+  ],
+  "employee_territories": [
+    {
+      "column_name": "employee_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "territory_id",
+      "data_type": "STRING"
+    }
+  ],
+  "employees": [
+    {
+      "column_name": "employee_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "last_name",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "first_name",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "title",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "title_of_courtesy",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "birth_date",
+      "data_type": "DATE"
+    },
+    {
+      "column_name": "hire_date",
+      "data_type": "DATE"
+    },
+    {
+      "column_name": "address",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "city",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "region",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "postal_code",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "country",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "home_phone",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "extension",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "photo",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "notes",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "reports_to",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "photo_path",
+      "data_type": "STRING"
+    }
+  ],
+  "order_details": [
+    {
+      "column_name": "order_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "product_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "unit_price",
+      "data_type": "FLOAT64"
+    },
+    {
+      "column_name": "quantity",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "discount",
+      "data_type": "FLOAT64"
+    }
+  ],
+  "orders": [
+    {
+      "column_name": "order_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "customer_id",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "employee_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "order_date",
+      "data_type": "DATE"
+    },
+    {
+      "column_name": "required_date",
+      "data_type": "DATE"
+    },
+    {
+      "column_name": "shipped_date",
+      "data_type": "DATE"
+    },
+    {
+      "column_name": "ship_via",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "freight",
+      "data_type": "FLOAT64"
+    },
+    {
+      "column_name": "ship_name",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "ship_address",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "ship_city",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "ship_region",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "ship_postal_code",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "ship_country",
+      "data_type": "STRING"
+    }
+  ],
+  "products": [
+    {
+      "column_name": "product_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "product_name",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "supplier_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "category_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "quantity_per_unit",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "unit_price",
+      "data_type": "FLOAT64"
+    },
+    {
+      "column_name": "units_in_stock",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "units_on_order",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "reorder_level",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "discontinued",
+      "data_type": "INT64"
+    }
+  ],
+  "region": [
+    {
+      "column_name": "region_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "region_description",
+      "data_type": "STRING"
+    }
+  ],
+  "shippers": [
+    {
+      "column_name": "shipper_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "company_name",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "phone",
+      "data_type": "STRING"
+    }
+  ],
+  "suppliers": [
+    {
+      "column_name": "supplier_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "company_name",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "contact_name",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "contact_title",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "address",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "city",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "region",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "postal_code",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "country",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "phone",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "fax",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "homepage",
+      "data_type": "STRING"
+    }
+  ],
+  "territories": [
+    {
+      "column_name": "territory_id",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "territory_description",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "region_id",
+      "data_type": "INT64"
+    }
+  ],
+  "us_states": [
+    {
+      "column_name": "state_id",
+      "data_type": "INT64"
+    },
+    {
+      "column_name": "state_name",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "state_abbr",
+      "data_type": "STRING"
+    },
+    {
+      "column_name": "state_region",
+      "data_type": "STRING"
+    }
+  ]
+}
