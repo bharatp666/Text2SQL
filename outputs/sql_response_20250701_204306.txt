@@ -1,0 +1,6 @@
+```
+SELECT c.customer_id, c.company_name, c.contact_name
+FROM retail.customers c
+JOIN retail.orders o ON c.customer_id = o.customer_id
+WHERE o.order_date BETWEEN '1998-01-01' AND '1998-12-31'
+```

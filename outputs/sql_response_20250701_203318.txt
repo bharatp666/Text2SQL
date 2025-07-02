@@ -1,0 +1,10 @@
+Here is the SQL query that lists all customers who placed an order in 1998:
+```
+SELECT c.customer_id, c.company_name, c.contact_name
+FROM customers c
+JOIN orders o ON c.customer_id = o.customer_id
+WHERE o.order_date BETWEEN '1998-01-01' AND '1998-12-31'
+```
+This query joins the `customers` table with the `orders` table on the `customer_id` column, and then filters the results to only include orders placed in 1998. The `SELECT` clause includes the `customer_id`, `company_name`, and `contact_name` columns from the `customers` table.
+
+Note: I've used the `BETWEEN` operator to specify the date range for the `order_date` column. This is a convenient way to filter dates in BigQuery.

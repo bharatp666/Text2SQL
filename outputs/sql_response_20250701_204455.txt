@@ -1,0 +1,8 @@
+```
+SELECT c.customer_id
+FROM retail.customers c
+JOIN retail.orders o ON c.customer_id = o.customer_id
+WHERE o.order_date BETWEEN '1998-01-01' AND '1998-12-31'
+GROUP BY c.customer_id
+HAVING COUNT(o.order_id) > 0
+```
