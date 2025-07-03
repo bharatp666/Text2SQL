@@ -1,0 +1,5 @@
+User Question:
+List all customers who placed an order in 1998.
+
+Business Insight:
+In 1998, a significant number of customers placed orders, indicating a strong sales performance during that year.

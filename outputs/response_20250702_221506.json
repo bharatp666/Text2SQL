@@ -1,0 +1,249 @@
+{
+  "question": "List all customers who placed an order in 1998.",
+  "sql_query": "SELECT DISTINCT customer_id\nFROM retail.orders\nWHERE order_date BETWEEN '1998-01-01' AND '1998-12-31'",
+  "results": [
+    {
+      "customer_id": "RANCH"
+    },
+    {
+      "customer_id": "CACTU"
+    },
+    {
+      "customer_id": "OCEAN"
+    },
+    {
+      "customer_id": "PICCO"
+    },
+    {
+      "customer_id": "ERNSH"
+    },
+    {
+      "customer_id": "SUPRD"
+    },
+    {
+      "customer_id": "MAISD"
+    },
+    {
+      "customer_id": "QUEEN"
+    },
+    {
+      "customer_id": "GOURL"
+    },
+    {
+      "customer_id": "RICAR"
+    },
+    {
+      "customer_id": "TRADH"
+    },
+    {
+      "customer_id": "COMMI"
+    },
+    {
+      "customer_id": "QUEDE"
+    },
+    {
+      "customer_id": "WELLI"
+    },
+    {
+      "customer_id": "HANAR"
+    },
+    {
+      "customer_id": "BOTTM"
+    },
+    {
+      "customer_id": "LAUGB"
+    },
+    {
+      "customer_id": "VAFFE"
+    },
+    {
+      "customer_id": "SIMOB"
+    },
+    {
+      "customer_id": "WILMK"
+    },
+    {
+      "customer_id": "WARTH"
+    },
+    {
+      "customer_id": "LAMAI"
+    },
+    {
+      "customer_id": "BONAP"
+    },
+    {
+      "customer_id": "VICTE"
+    },
+    {
+      "customer_id": "BLONP"
+    },
+    {
+      "customer_id": "SPECD"
+    },
+    {
+      "customer_id": "FRANR"
+    },
+    {
+      "customer_id": "LACOR"
+    },
+    {
+      "customer_id": "DUMON"
+    },
+    {
+      "customer_id": "WANDK"
+    },
+    {
+      "customer_id": "FRANK"
+    },
+    {
+      "customer_id": "BLAUS"
+    },
+    {
+      "customer_id": "MORGK"
+    },
+    {
+      "customer_id": "TOMSP"
+    },
+    {
+      "customer_id": "LEHMS"
+    },
+    {
+      "customer_id": "KOENE"
+    },
+    {
+      "customer_id": "OTTIK"
+    },
+    {
+      "customer_id": "ALFKI"
+    },
+    {
+      "customer_id": "QUICK"
+    },
+    {
+      "customer_id": "DRACD"
+    },
+    {
+      "customer_id": "HUNGO"
+    },
+    {
+      "customer_id": "REGGC"
+    },
+    {
+      "customer_id": "MAGAA"
+    },
+    {
+      "customer_id": "FRANS"
+    },
+    {
+      "customer_id": "TORTU"
+    },
+    {
+      "customer_id": "ANATR"
+    },
+    {
+      "customer_id": "PERIC"
+    },
+    {
+      "customer_id": "ANTON"
+    },
+    {
+      "customer_id": "SANTG"
+    },
+    {
+      "customer_id": "WOLZA"
+    },
+    {
+      "customer_id": "PRINI"
+    },
+    {
+      "customer_id": "FURIB"
+    },
+    {
+      "customer_id": "BOLID"
+    },
+    {
+      "customer_id": "GODOS"
+    },
+    {
+      "customer_id": "ROMEY"
+    },
+    {
+      "customer_id": "GALED"
+    },
+    {
+      "customer_id": "BERGS"
+    },
+    {
+      "customer_id": "FOLKO"
+    },
+    {
+      "customer_id": "CHOPS"
+    },
+    {
+      "customer_id": "RICSU"
+    },
+    {
+      "customer_id": "EASTC"
+    },
+    {
+      "customer_id": "SEVES"
+    },
+    {
+      "customer_id": "CONSH"
+    },
+    {
+      "customer_id": "AROUT"
+    },
+    {
+      "customer_id": "BSBEV"
+    },
+    {
+      "customer_id": "ISLAT"
+    },
+    {
+      "customer_id": "NORTS"
+    },
+    {
+      "customer_id": "WHITC"
+    },
+    {
+      "customer_id": "SAVEA"
+    },
+    {
+      "customer_id": "GREAL"
+    },
+    {
+      "customer_id": "OLDWO"
+    },
+    {
+      "customer_id": "RATTC"
+    },
+    {
+      "customer_id": "THECR"
+    },
+    {
+      "customer_id": "TRAIH"
+    },
+    {
+      "customer_id": "LETSS"
+    },
+    {
+      "customer_id": "LONEP"
+    },
+    {
+      "customer_id": "THEBI"
+    },
+    {
+      "customer_id": "SPLIR"
+    },
+    {
+      "customer_id": "LINOD"
+    },
+    {
+      "customer_id": "HILAA"
+    },
+    {
+      "customer_id": "LILAS"
+    }
+  ]
+}
