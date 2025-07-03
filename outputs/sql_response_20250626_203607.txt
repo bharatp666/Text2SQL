@@ -1,8 +1,0 @@
-Here is the BigQuery SQL query to list all customers who placed an order in 1998:
-```
-SELECT c.customer_id, c.company_name, c.contact_name
-FROM customers c
-JOIN orders o ON c.customer_id = o.customer_id
-WHERE o.order_date BETWEEN '1998-01-01' AND '1998-12-31'
-```
-This query joins the `customers` table with the `orders` table on the `customer_id` column, and then filters the results to only include orders with an `order_date` in the year 1998. The resulting query returns the `customer_id`, `company_name`, and `contact_name` for each customer who placed an order in 1998.
